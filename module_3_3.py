@@ -3,6 +3,9 @@ def print_params(a=1, b='строка', c=True):
 
 print_params(b = 25)
 print_params(c = [1,2,3])
+print_params()
+print_params(a=55, b = 7, c= False)
+print_params(d= 56) # выдаст ошибку, т.к. в функции отсутствует параметр с таким названием
 
 values_list = [54, 65, 9]
 print_params(*values_list)

@@ -23,4 +23,4 @@ def calculate_structure_sum(arg):
 
 
 result = calculate_structure_sum(data_structure)
-print('Cумма всех чисел и длин всех строк:',result)
+print(result)
